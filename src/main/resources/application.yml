@@ -1,0 +1,21 @@
+server:
+    port: 9090
+    contextPath: /boottest
+---
+spring:
+    profiles: development
+server:
+    port: 8080
+eureka:
+  client:
+    enabled: false
+    registerWithEureka: false
+    fetchRegistry: false
+security:
+  basic:
+    enabled: false    
+---
+spring:
+    profiles: production
+server:
+    port: 0
