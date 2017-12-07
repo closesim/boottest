@@ -1,6 +1,6 @@
 # Spring Boot Test
 
-Aquí probando Spring Boot.
+Aquí probando Spring Boot. Agregar más características.
 
 ## Características
 
