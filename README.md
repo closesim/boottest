@@ -1,8 +1,10 @@
 # Spring Boot Test
 
-Aqui probabdo Spring Boot.
+Aquí probando Spring Boot.
 
 ## Características
+
+Se han agregado las siguientes características:
 
 * Hytrix
 * AOP
