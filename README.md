@@ -13,4 +13,4 @@ Se han agregado las siguientes características:
 
 ## Autor
 
-* **Miguel Borja** - *R&D*
+* **Miguel  Borja** - *R&D*
