@@ -9,11 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.test.test.domain.Greeting;
 
+/**
+ *  Controlador de prueba
+ */
 @RestController
 public class GreetingController {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(GreetingController.class);
-	
+
+    /**
+     *
+     * @param name
+     * @return
+     */
 	@RequestMapping(method = RequestMethod.GET, value = "/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
 		LOGGER.info("Enviando");
