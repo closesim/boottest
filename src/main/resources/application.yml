@@ -1,6 +1,9 @@
 server:
     port: 9090
     contextPath: /boottest
+spring:
+  application:
+    name: boottest
 ---
 spring:
     profiles: development
